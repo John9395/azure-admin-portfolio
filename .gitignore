@@ -1,0 +1,18 @@
+# Never commit secrets
+*.pem
+*.key
+*.pfx
+id_rsa*
+.env
+*.env
+*secret*
+*credentials*
+*.publishsettings
+
+# Bicep / ARM parameter files that contain real values (commit a .example version instead)
+*.local.bicepparam
+*.local.parameters.json
+
+# Mac and editor files
+.DS_Store
+.vscode/
