@@ -17,7 +17,7 @@ Each project solves a real business problem, is built in a live Azure subscripti
 
 | # | Project | Skills | Status |
 | --- | --- | --- | --- |
-| 01 | Lab foundation and cost guardrails | Cost Management, budgets, tagging, naming standards | 🔜 Planned |
+| 01 | [Lab foundation and cost guardrails](01-lab-foundation/) | Cost Management, budgets, tagging, naming standards | ✅ Complete |
 | 02 | Entra ID users and groups at scale | Bulk user import, dynamic groups, B2B guests | 🔜 Planned |
 | 03 | Least privilege with custom RBAC roles | Azure RBAC, custom roles | 🔜 Planned |
 | 04 | Governance with Azure Policy | Policy initiatives, Deny/Modify, remediation | 🔜 Planned |
