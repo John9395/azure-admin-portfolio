@@ -11,7 +11,7 @@ Each project solves a real business problem, is built in a live Azure subscripti
 - Certifications: AZ-104 (Azure Administrator Associate), AZ-900 (Azure Fundamentals); studying for AZ-305
 - Starting an M.S. in Artificial Intelligence at Kennesaw State University in January 2027
 
-📫 [LinkedIn](https://www.linkedin.com/in/YOUR-LINKEDIN-URL)
+📫 [LinkedIn](https://www.linkedin.com/in/johnathan-freeman-/)
 
 ## Projects
 
