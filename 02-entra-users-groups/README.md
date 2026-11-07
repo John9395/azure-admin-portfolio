@@ -69,7 +69,7 @@ Tenant: Freeman Lab (freemanlab.onmicrosoft.com), Microsoft Entra ID P2
 **Guest user with User type: Guest and invitation accepted** (personal email blurred)
 ![Guest user](images/guest-user.png)
 
-**Audit log showing the exact change: Department ["HR"] → ["Sales"]**
+**Audit log showing the exact change: Department changed from "HR" to "Sales"**
 ![Audit log modified properties](images/audit-log-department-change.png)
 
 **Azure CLI confirmation: 22 accounts, 4 groups, the guest, and 9 dynamic members including Isaac**
