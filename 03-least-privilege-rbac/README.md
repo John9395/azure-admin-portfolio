@@ -85,6 +85,9 @@ Microsoft Entra ID
 **Azure CLI: the role definition and the assignment**
 ![CLI output](images/cli-role-and-assignment.png)
 
+**Cleanup: test VM deleted, nothing left running**
+![No virtual machines after cleanup](images/cleanup-no-vms.png)
+
 ## What I learned
 - **Role names don't tell you what a role allows.** "Virtual Machine Contributor" sounds right for the help desk, but the `*` wildcard includes delete. Always read the actions list before assigning.
 - **Access = who + what + where.** The group is who, the custom role is what, and the resource group is where. Keeping the scope small limits the damage if an account is ever compromised.
@@ -96,7 +99,7 @@ Microsoft Entra ID
 
 ## Cost
 - Approximate cost: a few cents. The Standard_B1s VM ran only for the length of the lab; custom roles, groups and role assignments are free.
-- Cleanup: delete `rg-az104-p03-dev` (VM, disk, network card and the role assignment go with it) and disable the test user. The custom role and `sg-helpdesk` stay for later projects.
+- Cleanup: deleted the test VM the same day, so nothing is left running. The custom role and `sg-helpdesk` stay for later projects.
 
 ## Skills
 `Azure RBAC` · `Custom roles` · `Least privilege` · `Role assignment scope` · `Microsoft Entra ID groups` · `Check access` · `Azure CLI` · `Azure Virtual Machines`
