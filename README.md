@@ -19,7 +19,7 @@ Each project solves a real business problem, is built in a live Azure subscripti
 | --- | --- | --- | --- |
 | 01 | [Lab foundation and cost guardrails](01-lab-foundation/) | Cost Management, budgets, tagging, naming standards | ✅ Complete |
 | 02 | [Entra ID users and groups at scale](02-entra-users-groups/) | Bulk user import, dynamic groups, B2B guests | ✅ Complete |
-| 03 | Least privilege with custom RBAC roles | Azure RBAC, custom roles | 🔜 Planned |
+| 03 | [Least privilege with custom RBAC roles](03-least-privilege-rbac/) | Azure RBAC, custom roles, scoped role assignments | ✅ Complete |
 | 04 | Governance with Azure Policy | Policy initiatives, Deny/Modify, remediation | 🔜 Planned |
 | 05 | Management groups and resource locks | Management groups, locks | 🔜 Planned |
 | 06 | Self-service password reset and guest access | Entra SSPR, external collaboration | 🔜 Planned |
